@@ -1,0 +1,58 @@
+
+.barra{
+  background: grey;
+  width: 70px;
+  height: 4px;
+}
+
+.coder1a3{
+  position: absolute;
+  top: 90px;
+}
+.coder4a6{
+  position: absolute;
+  top: 350px;
+}
+.img1{
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+.img2{
+  position: absolute;
+  top: 0px;
+  left: 250px;
+  width: 200px;
+  height: 200px;
+}
+.img3{
+  position: absolute;
+  top: 0;
+  left: 500px;
+  width: 200px;
+  height: 200px;
+}
+.name1{
+  position:absolute;
+  margin: 0;
+  padding: 0;
+  top: 160px;
+  left: 55px;
+  color: grey;
+}
+.name2{
+  position:relative;
+  margin: 0;
+  padding: 0;
+  top: -40px;
+  left: 325px;
+  color: grey;
+}
+.name3{
+  position:relative;
+  margin: 0;
+  padding: 0;
+  top: -60px;
+  left: 575px;
+  color: grey;
+}
