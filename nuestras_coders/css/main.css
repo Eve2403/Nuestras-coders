@@ -4,15 +4,17 @@
   width: 70px;
   height: 4px;
 }
-
+/*clase psra poder mover el primer bloque de 3*/
 .coder1a3{
   position: absolute;
   top: 90px;
 }
+/*clase para mover el segundo bloque*/
 .coder4a6{
   position: absolute;
   top: 350px;
 }
+/*propiedades de las imagenes 1,2 y3 comunes en los dos bloques*/
 .img1{
   position: relative;
   width: 200px;
@@ -32,6 +34,7 @@
   width: 200px;
   height: 200px;
 }
+/*propiedades de nombres 1,2 y3 comunes en los dos bloques*/
 .name1{
   position:absolute;
   margin: 0;
