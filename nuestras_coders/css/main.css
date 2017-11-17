@@ -1,61 +1,59 @@
-
-.barra{
+h1{
+  font-family: 'Inconsolata', monospace;
+}
+.pleca{
   background: grey;
-  width: 70px;
-  height: 4px;
+  width: 100px;
+  height: 5px;
 }
-/*clase psra poder mover el primer bloque de 3*/
-.coder1a3{
-  position: absolute;
-  top: 90px;
-}
-/*clase para mover el segundo bloque*/
-.coder4a6{
-  position: absolute;
-  top: 350px;
-}
-/*propiedades de las imagenes 1,2 y3 comunes en los dos bloques*/
-.img1{
+.bloque1{
   position: relative;
-  width: 200px;
-  height: 200px;
+  top: 30px;
 }
-.img2{
-  position: absolute;
-  top: 0px;
-  left: 250px;
-  width: 200px;
-  height: 200px;
+.bloque2{
+  position: relative;
+  top: 60px;
 }
-.img3{
-  position: absolute;
-  top: 0;
-  left: 500px;
-  width: 200px;
-  height: 200px;
+.image1, .image4{
+  display: inline-block;
+  position: relative;
+  width: 250px;
+  height: 250px;
 }
-/*propiedades de nombres 1,2 y3 comunes en los dos bloques*/
-.name1{
-  position:absolute;
-  margin: 0;
-  padding: 0;
-  top: 160px;
-  left: 55px;
+.image2, .image3, .image5, .image6{
+  display: inline-block;
+  position: relative;
+  margin-left: 30px;
+  width: 250px;
+  height: 250px;
+}
+.name{
+  position: relative;
   color: grey;
+  font-family: 'Inconsolata', monospace;
+  left: 102px;
+  top: 206px;
 }
-.name2{
-  position:relative;
-  margin: 0;
-  padding: 0;
-  top: -40px;
-  left: 325px;
-  color: grey;
+.image1{
+  background-image:url("C:/Users/evepa/Documents/laboratoria/sprint2_html_css/nuestras_coders_mejorado/nuestras_coders/assets/images/Berenice Rougerio.JPG");
+  background-size: cover;
+}.image2{
+  background-image:url("C:/Users/evepa/Documents/laboratoria/sprint2_html_css/nuestras_coders_mejorado/nuestras_coders/assets/images/Evelyn Cruz.JPG");
+  background-size: cover;
 }
-.name3{
-  position:relative;
-  margin: 0;
-  padding: 0;
-  top: -60px;
-  left: 575px;
-  color: grey;
+.image3{
+  background-image:url("C:/Users/evepa/Documents/laboratoria/sprint2_html_css/nuestras_coders_mejorado/nuestras_coders/assets/images/Gorety Carbajal.JPG");
+  background-size: cover;
+}
+.image4{
+  background-image:url("C:/Users/evepa/Documents/laboratoria/sprint2_html_css/nuestras_coders_mejorado/nuestras_coders/assets/images/Ingrid Sagrero.JPG");
+  background-size: cover;
+}
+.image5{
+  background-image:url("C:/Users/evepa/Documents/laboratoria/sprint2_html_css/nuestras_coders_mejorado/nuestras_coders/assets/images/Laura Martinez.JPG");
+  background-size: cover;
+}
+.image6{
+  background-image:url("C:/Users/evepa/Documents/laboratoria/sprint2_html_css/nuestras_coders_mejorado/nuestras_coders/assets/images/Rosaura Rendon.JPG");
+  background-size: cover;
 }
